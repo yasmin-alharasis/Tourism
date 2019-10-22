@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Yasmin from './components/yasmin';
 
 class App extends Component {
   state = {  }
@@ -6,6 +7,7 @@ class App extends Component {
     return ( 
       <div>
         <h1>Toursim Website</h1>
+        <Yasmin/>
       </div>
      );
   }
